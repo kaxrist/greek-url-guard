@@ -1,0 +1,269 @@
+﻿# Copyright (C) 2026 CCDesign.gr
+# This file is distributed under the GPLv2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Greek URL Guard 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/greek-url-guard\n"
+"POT-Creation-Date: 2026-06-05 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Codex\n"
+"X-Domain: greek-url-guard\n"
+
+#: includes/class-admin.php:335
+msgid "Article title in Greek"
+msgstr ""
+
+#: includes/class-health-check.php:358
+msgid "at least %d matches"
+msgstr ""
+
+#: greek-url-guard.php:5
+msgid "Convert new Greek slugs and upload filenames into clean, SEO-friendly Greeklish without changing existing URLs."
+msgstr ""
+
+#: includes/class-admin.php:271
+msgid "Categories, tags, and taxonomies"
+msgstr ""
+
+#: greek-url-guard.php:9
+msgid "CCDesign.gr"
+msgstr ""
+
+#: includes/class-admin.php:321
+msgid "Content slugs are never reverted or deleted on uninstall."
+msgstr ""
+
+#: includes/class-admin.php:236
+msgid "Core Settings"
+msgstr ""
+
+#: includes/class-admin.php:250
+msgid "Coverage"
+msgstr ""
+
+#: includes/class-admin.php:234
+msgid "Create clean Greeklish slugs and upload filenames for new WordPress content without rewriting existing URLs."
+msgstr ""
+
+#: includes/class-admin.php:267
+msgid "Custom post types"
+msgstr ""
+
+#: includes/class-health-check.php:403 includes/class-health-check.php:414
+msgid "Custom slug code"
+msgstr ""
+
+#: includes/class-admin.php:291
+msgid "Default: 70 characters. The limit is applied without cutting words when possible."
+msgstr ""
+
+#: includes/class-health-check.php:758
+msgid "Detected: %s. Greek URL Guard only works on slugs and new upload filenames; it does not edit builder content or translated strings."
+msgstr ""
+
+#: includes/class-admin.php:245
+msgid "Enable automatic cleanup"
+msgstr ""
+
+#: includes/class-admin.php:292 includes/class-admin.php:302
+msgid "Example:"
+msgstr ""
+
+#: includes/class-health-check.php:255
+msgid "Existing categories, tags, or other public taxonomy items with Greek slugs were found (%1$s). Examples: %2$s. New items are cleaned automatically; old URLs are left unchanged."
+msgstr ""
+
+#: includes/class-health-check.php:251 includes/class-health-check.php:263
+msgid "Existing category/tag slugs"
+msgstr ""
+
+#: includes/class-health-check.php:219
+msgid "Existing Greek post or page slugs were found (%1$s). Examples: %2$s. Greek URL Guard does not rewrite old URLs automatically. Review them before changing anything, because redirects may be needed."
+msgstr ""
+
+#: includes/class-health-check.php:289
+msgid "Existing media files with Greek characters in the filename were found (%1$s). Examples: %2$s. New uploads are cleaned automatically; old files are not renamed."
+msgstr ""
+
+#: includes/class-health-check.php:215 includes/class-health-check.php:227
+msgid "Existing post/page slugs"
+msgstr ""
+
+#: includes/class-admin.php:377
+msgid "Good"
+msgstr ""
+
+#: includes/class-admin.php:96 includes/class-admin.php:97 includes/class-admin.php:228 greek-url-guard.php:3
+msgid "Greek URL Guard"
+msgstr ""
+
+#: includes/class-admin.php:379
+msgid "Info"
+msgstr ""
+
+#: includes/class-health-check.php:747 includes/class-health-check.php:754
+msgid "Integrations"
+msgstr ""
+
+#: includes/class-admin.php:306
+msgid "Manual slugs"
+msgstr ""
+
+#: includes/class-health-check.php:337
+msgid "matching records found"
+msgstr ""
+
+#: includes/class-admin.php:297
+msgid "Maximum filename basename length"
+msgstr ""
+
+#: includes/class-admin.php:287
+msgid "Maximum slug length"
+msgstr ""
+
+#: includes/class-admin.php:275
+msgid "Media file names"
+msgstr ""
+
+#: includes/class-health-check.php:285 includes/class-health-check.php:297
+msgid "Media filenames"
+msgstr ""
+
+#: includes/class-admin.php:380
+msgid "Neutral"
+msgstr ""
+
+#: includes/class-health-check.php:416
+msgid "No active snippet, theme file, custom file, or runtime hook that looks like a Greek slug or filename converter was detected."
+msgstr ""
+
+#: includes/class-health-check.php:265
+msgid "No Greek category, tag, or taxonomy slugs were detected in a lightweight check."
+msgstr ""
+
+#: includes/class-health-check.php:299
+msgid "No Greek media filenames were detected in a lightweight check."
+msgstr ""
+
+#: includes/class-health-check.php:229
+msgid "No Greek post or page slugs were detected in a lightweight check."
+msgstr ""
+
+#: includes/class-health-check.php:749
+msgid "No WooCommerce, page builder, or translation plugin was detected. No action is needed."
+msgstr ""
+
+#: includes/class-admin.php:282
+msgid "Old URLs and existing uploaded files are not changed."
+msgstr ""
+
+#: includes/class-admin.php:263
+msgid "Pages"
+msgstr ""
+
+#: includes/class-health-check.php:53 includes/class-health-check.php:60
+msgid "Permalinks"
+msgstr ""
+
+#: includes/class-admin.php:259
+msgid "Posts"
+msgstr ""
+
+#: includes/class-admin.php:255
+msgid "Posts and pages"
+msgstr ""
+
+#: includes/class-health-check.php:407
+msgid "Potential active custom code that may alter Greek slugs or filenames was detected: %s. Review it before enabling Greek URL Guard automations."
+msgstr ""
+
+#: includes/class-admin.php:310
+msgid "Preserve manually entered slugs"
+msgstr ""
+
+#: includes/class-admin.php:312
+msgid "Changing the title of published content does not rewrite its existing URL. This option only controls slugs typed directly in the slug field."
+msgstr ""
+
+#: includes/class-health-check.php:55
+msgid "Pretty permalinks are disabled. Slug quality matters most when pretty permalinks are enabled."
+msgstr ""
+
+#: includes/class-health-check.php:62
+msgid "Pretty permalinks are enabled."
+msgstr ""
+
+#: includes/class-admin.php:336
+msgid "Preview"
+msgstr ""
+
+#: includes/class-admin.php:156
+msgid "Preview request could not be completed."
+msgstr ""
+
+#: includes/class-admin.php:181 includes/class-admin.php:222
+msgid "Preview request could not be verified."
+msgstr ""
+
+#: includes/class-admin.php:334
+msgid "Preview text"
+msgstr ""
+
+#: includes/class-admin.php:319
+msgid "Remove plugin settings on uninstall"
+msgstr ""
+
+#: includes/class-admin.php:342
+msgid "Result:"
+msgstr ""
+
+#: includes/class-admin.php:349
+msgid "SEO Safety Check"
+msgstr ""
+
+#: includes/class-admin.php:117
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:231
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-admin.php:330
+msgid "Slug Preview"
+msgstr ""
+
+#: includes/class-admin.php:241
+msgid "Status"
+msgstr ""
+
+#: includes/class-admin.php:301
+msgid "The extension is preserved separately. Underscores, spaces, Greek characters, symbols, and repeated dashes are cleaned in new upload filenames."
+msgstr ""
+
+#: includes/class-admin.php:315
+msgid "Uninstall behavior"
+msgstr ""
+
+#: includes/class-admin.php:378
+msgid "Warning"
+msgstr ""
+
+#: includes/class-admin.php:279
+msgid "WooCommerce products"
+msgstr ""
+
+#: includes/class-admin.php:172
+msgid "You are not allowed to preview slugs."
+msgstr ""
+
+#: includes/class-health-check.php:365
+msgid "%d match"
+msgid_plural "%d matches"
+msgstr[0] ""
+msgstr[1] ""
+
+

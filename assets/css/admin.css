@@ -1,0 +1,91 @@
+.greek-url-guard-settings-form label {
+	align-items: center;
+	display: inline-flex;
+	gap: 8px;
+	line-height: 1.4;
+}
+
+.greek-url-guard-settings-form input[type="checkbox"] {
+	flex: 0 0 auto;
+	margin: 0;
+}
+
+.greek-url-guard-settings-form input[type="checkbox"]:disabled {
+	opacity: 0.55;
+}
+
+.greek-url-guard-option-list {
+	display: grid;
+	gap: 7px;
+	max-width: 720px;
+}
+
+.greek-url-guard-option-list label {
+	margin: 0;
+}
+
+.greek-url-guard-example code {
+	white-space: normal;
+	word-break: break-word;
+}
+
+.greek-url-guard-health-row th {
+	align-items: center;
+	display: flex;
+	gap: 8px;
+}
+
+.greek-url-guard-status-dot {
+	background: #8c8f94;
+	border-radius: 999px;
+	display: inline-block;
+	flex: 0 0 auto;
+	height: 9px;
+	width: 9px;
+}
+
+.greek-url-guard-health-row-good .greek-url-guard-status-dot {
+	background: #00a32a;
+}
+
+.greek-url-guard-health-row-info .greek-url-guard-status-dot {
+	background: #2271b1;
+}
+
+.greek-url-guard-health-row-warning .greek-url-guard-status-dot {
+	background: #d63638;
+}
+
+[data-greek-url-guard-preview-form] p {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+[data-greek-url-guard-preview-form] .button {
+	margin: 0;
+}
+
+@media screen and (max-width: 782px) {
+	.greek-url-guard-settings-form .form-table th,
+	.greek-url-guard-settings-form .form-table td {
+		display: block;
+		padding: 8px 0;
+		width: 100%;
+	}
+
+	.greek-url-guard-option-list {
+		gap: 10px;
+	}
+
+	.greek-url-guard-settings-form label {
+		align-items: center;
+	}
+
+	.greek-url-guard-settings-form input[type="text"],
+	.greek-url-guard-settings-form input[type="number"],
+	[data-greek-url-guard-preview-form] input[type="text"] {
+		max-width: 100%;
+	}
+}
